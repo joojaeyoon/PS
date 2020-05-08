@@ -5,7 +5,7 @@ import os
 filelist = os.listdir()
 
 for f in filelist:
-    if f[0] >= "0" and f[0] <= "9":
+    if f[0].isdigit() and os.path.isfile(f):
         name = f.split(".")[0]
 
         if not os.path.exists(name):
