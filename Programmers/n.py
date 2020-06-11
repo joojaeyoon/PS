@@ -29,7 +29,7 @@ def solution(N, number):
         q.append([num//(N*10+N), count+2])
         q.append([num*(N*10+N), count+2])
 
-    return answer
+    return answer if answer <= 8 else -1
 
 
 print(solution(5, 12))
