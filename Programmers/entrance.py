@@ -10,9 +10,7 @@ def solution(n, times):
         cnt = 0
 
         for time in times:
-            print(mid//time)
             cnt += mid//time
-        print(mid)
 
         if cnt >= n:
             if answer == -1:
