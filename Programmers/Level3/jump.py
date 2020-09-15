@@ -1,3 +1,5 @@
+# Programmers LV 3 멀리 뛰기
+
 def solution(n):
     dp=[1,2]
 
