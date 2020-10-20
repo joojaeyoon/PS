@@ -1,7 +1,9 @@
 import os
+import shutil
 import time
-from bs4 import BeautifulSoup
+
 import requests
+from bs4 import BeautifulSoup
 
 
 def get_title(url):
@@ -45,18 +47,20 @@ def moveFile():
             max_range = min_range+1000
 
             f_name = str(min_range)+"-"+str(max_range)
-            path = f_name+"/"+number+"/"+f
+            path = f"{f_name}/{number}/{f}"
 
             writeReadme(number, f"{f_name}/{number}/")
 
             if not os.path.exists(f_name):
                 os.mkdir(f_name)
 
-            if not os.path.exists(f_name+"/"+number):
-                os.mkdir(f_name+"/"+number)
+            if not os.path.exists(f"{f_name}/{number}"):
+                os.mkdir(f"{f_name}/{number}")
 
             os.rename(f, path)
 
 
 if __name__ == "__main__":
     moveFile()
+
+    shutil.copy("README.md", "../")
