@@ -49,7 +49,7 @@ def moveFile():
             f_name = str(min_range)+"-"+str(max_range)
             path = f"{f_name}/{number}/{f}"
 
-            writeReadme(number, f"{f_name}/{number}/")
+            writeReadme(number, f"/BOJ/{f_name}/{number}/")
 
             if not os.path.exists(f_name):
                 os.mkdir(f_name)
