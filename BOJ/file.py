@@ -1,6 +1,5 @@
 import os
 import shutil
-import time
 
 import requests
 from bs4 import BeautifulSoup
@@ -19,8 +18,9 @@ def get_title(url):
 def writeReadme(num, path):
     title = get_title(f"https://www.acmicpc.net/problem/{num}")
 
+    tier = getTier(num)
     f = open("README.md", "a", encoding="utf-8")
-    f.write(f"| {num} | <a href='{path}'>{title}</a> |\n")
+    f.write(f"| {num} | {tier} |<a href='{path}'>{title}</a> |\n")
     f.close()
 
     f = open("README.md", "r", encoding="utf-8")
@@ -34,7 +34,45 @@ def writeReadme(num, path):
     f = open("README.md", "w", encoding="utf-8")
     f.writelines(header)
     f.writelines(data)
-    f.close
+    f.close()
+
+
+def getAllTiers():
+    tiers = {}
+
+    urls = ["https://solved.ac/profile/wow1548/solved",
+            "https://solved.ac/profile/wow1548/solved?page=2",
+            "https://solved.ac/profile/wow1548/solved?page=3"]
+
+    for url in urls:
+        res = requests.get(url)
+        html = res.text
+
+        soup = BeautifulSoup(html, "html.parser")
+        problems = soup.select(
+            "div.StickyTable__Row-akg1ak-2 > div > span > a")
+
+        for i in range(0, len(problems), 2):
+            tiers[int(problems[i].text)] = problems[i].select_one("img")
+
+    f = open("README.md", "r", encoding="utf-8")
+    data = f.readlines()
+    header = data[:4]
+    data = data[4:]
+    f.close()
+
+    data.sort(key=lambda x: int(x.split("|")[1]))
+
+    for i in range(len(data)):
+        tmp = data[i].split("|")
+        tier = str(tiers.get(int(tmp[1]), "?"))
+        tmp.insert(2, tier)
+        data[i] = "|".join(tmp)
+
+    f = open("README.md", "w", encoding="utf-8")
+    f.writelines(header)
+    f.writelines(data)
+    f.close()
 
 
 def moveFile():
@@ -58,6 +96,18 @@ def moveFile():
                 os.mkdir(f"{f_name}/{number}")
 
             os.rename(f, path)
+
+
+def getTier(num):
+    url = f"https://solved.ac/search?query={num}"
+
+    res = requests.get(url)
+    html = res.text
+
+    soup = BeautifulSoup(html, "html.parser")
+    tier = soup.select_one(".TierBadge__TierBadgeStyle-bguxxi-0")
+
+    return str(tier)
 
 
 if __name__ == "__main__":
