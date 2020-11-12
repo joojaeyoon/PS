@@ -46,7 +46,7 @@
 | 1647 |<img alt="Gold IV" class="" src="https://static.solved.ac/tier_small/12.svg"/>| <a href='/BOJ/1000-2000/1647'>도시 분할 계획</a> |
 | 1654 |<img alt="Silver III" class="" src="https://static.solved.ac/tier_small/8.svg"/>| <a href='/BOJ/1000-2000/1654'>랜선 자르기</a> |
 | 1655 |<img alt="Gold II" class="" src="https://static.solved.ac/tier_small/14.svg"/>| <a href='/BOJ/1000-2000/1655'>가운데를 말해요</a> |
-| 1679 |?| <a href='/BOJ/1000-2000/1679'>숫자놀이</a> |
+| 1679 |<img alt="Silver I" class="" src="https://static.solved.ac/tier_small/10.svg"/>| <a href='/BOJ/1000-2000/1679'>숫자놀이</a> |
 | 1700 |<img alt="Gold II" class="" src="https://static.solved.ac/tier_small/14.svg"/>| <a href='/BOJ/1000-2000/1700/'>멀티탭 스케줄링</a> |
 | 1707 |<img alt="Gold IV" class="" src="https://static.solved.ac/tier_small/12.svg"/>| <a href='/BOJ/1000-2000/1707'>이분 그래프</a> |
 | 1715 |<img alt="Gold IV" class="" src="https://static.solved.ac/tier_small/12.svg"/>| <a href='/BOJ/1000-2000/1715'>카드 정렬하기</a> |
