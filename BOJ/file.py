@@ -53,7 +53,9 @@ def getAllTiers():
             "div.StickyTable__Row-akg1ak-2 > div > span > a")
 
         for i in range(0, len(problems), 2):
-            tiers[int(problems[i].text)] = problems[i].select_one("img")
+            img = problems[i].select_one("img")
+            img["class"] = ""
+            tiers[int(problems[i].text)] = str(img)
 
     f = open("README.md", "r", encoding="utf-8")
     data = f.readlines()
@@ -65,7 +67,7 @@ def getAllTiers():
 
     for i in range(len(data)):
         tmp = data[i].split("|")
-        tier = str(tiers.get(int(tmp[1]), "?"))
+        tier = tiers.get(int(tmp[1]), "?")
         tmp.insert(2, tier)
         data[i] = "|".join(tmp)
 
