@@ -117,6 +117,7 @@
 | 9465 |<img alt="Silver II" class="" src="https://static.solved.ac/tier_small/9.svg"/>| <a href='/BOJ/9000-10000/9465'>스티커</a> |
 | 9613 |<img alt="Silver III" class="" src="https://static.solved.ac/tier_small/8.svg"/>| <a href='/BOJ/9000-10000/9613'>GCD 합</a> |
 | 10430 |<img alt="Bronze V" class="" src="https://static.solved.ac/tier_small/1.svg"/>| <a href='/BOJ/10000-11000/10430'>나머지</a> |
+| 10775 | <img alt="Gold I" class="" src="https://static.solved.ac/tier_small/15.svg"/> |<a href='/BOJ/10000-11000/10775/'>공항</a> |
 | 10816 |<img alt="Silver IV" class="" src="https://static.solved.ac/tier_small/7.svg"/>| <a href='/BOJ/10000-11000/10816'>숫자 카드 2</a> |
 | 10819 |<img alt="Silver II" class="" src="https://static.solved.ac/tier_small/9.svg"/>| <a href='/BOJ/10000-11000/10819'>차이를 최대로</a> |
 | 10844 |<img alt="Silver I" class="" src="https://static.solved.ac/tier_small/10.svg"/>| <a href='/BOJ/10000-11000/10844'>쉬운 계단 수</a> |

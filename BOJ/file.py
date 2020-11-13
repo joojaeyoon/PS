@@ -108,6 +108,7 @@ def getTier(num):
 
     soup = BeautifulSoup(html, "html.parser")
     tier = soup.select_one(".TierBadge__TierBadgeStyle-bguxxi-0")
+    tier["class"]=""
 
     return str(tier)
 
