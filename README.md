@@ -151,8 +151,6 @@
 | 13904 |<img alt="Gold III" class="" src="https://static.solved.ac/tier_small/13.svg"/>| <a href='/BOJ/13000-14000/13904/'>과제</a> |
 | 14002 |<img alt="Gold IV" class="" src="https://static.solved.ac/tier_small/12.svg"/>| <a href='/BOJ/14000-15000/14002'>가장 긴 증가하는 부분 수열 4</a> |
 | 14427 |<img alt="Gold I" class="" src="https://static.solved.ac/tier_small/15.svg"/>| <a href='/BOJ/14000-15000/14427/'>수열과 쿼리 15</a> |
-| 14427 |<img alt="Gold I" class="" src="https://static.solved.ac/tier_small/15.svg"/>| <a href='/BOJ/14000-15000/14427/'>수열과 쿼리 15</a> |
-| 14427 |<img alt="Gold I" class="" src="https://static.solved.ac/tier_small/15.svg"/>| <a href='/BOJ/14000-15000/14427/'>수열과 쿼리 15</a> |
 | 14464 | <img alt="Gold II" class="" src="https://static.solved.ac/tier_small/14.svg"/> |<a href='/BOJ/14000-15000/14464/'>소가 길을 건너간 이유 4</a> |
 | 14465 | <img alt="Silver II" class="" src="https://static.solved.ac/tier_small/9.svg"/> |<a href='/BOJ/14000-15000/14465/'>소가 길을 건너간 이유 5</a> |
 | 14467 | <img alt="Silver V" class="" src="https://static.solved.ac/tier_small/6.svg"/> |<a href='/BOJ/14000-15000/14467/'>소가 길을 건너간 이유 1</a> |
