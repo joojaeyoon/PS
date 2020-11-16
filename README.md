@@ -152,6 +152,7 @@
 | 14427 |<img alt="Gold I" class="" src="https://static.solved.ac/tier_small/15.svg"/>| <a href='/BOJ/14000-15000/14427/'>수열과 쿼리 15</a> |
 | 14427 |<img alt="Gold I" class="" src="https://static.solved.ac/tier_small/15.svg"/>| <a href='/BOJ/14000-15000/14427/'>수열과 쿼리 15</a> |
 | 14427 |<img alt="Gold I" class="" src="https://static.solved.ac/tier_small/15.svg"/>| <a href='/BOJ/14000-15000/14427/'>수열과 쿼리 15</a> |
+| 14465 | <img alt="Silver II" class="" src="https://static.solved.ac/tier_small/9.svg"/> |<a href='/BOJ/14000-15000/14465/'>소가 길을 건너간 이유 5</a> |
 | 14467 | <img alt="Silver V" class="" src="https://static.solved.ac/tier_small/6.svg"/> |<a href='/BOJ/14000-15000/14467/'>소가 길을 건너간 이유 1</a> |
 | 14468 | <img alt="Bronze I" class="" src="https://static.solved.ac/tier_small/5.svg"/> |<a href='/BOJ/14000-15000/14468/'>소가 길을 건너간 이유 2</a> |
 | 14469 | <img alt="Silver V" class="" src="https://static.solved.ac/tier_small/6.svg"/> |<a href='/BOJ/14000-15000/14469/'>소가 길을 건너간 이유 3</a> |
