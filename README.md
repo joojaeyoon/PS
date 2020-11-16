@@ -115,6 +115,7 @@
 | 9095 |<img alt="Silver III" class="" src="https://static.solved.ac/tier_small/8.svg"/>| <a href='/BOJ/9000-10000/9095'>1, 2, 3 더하기</a> |
 | 9370 |<img alt="Gold II" class="" src="https://static.solved.ac/tier_small/14.svg"/>| <a href='/BOJ/9000-10000/9370'>미확인 도착지</a> |
 | 9465 |<img alt="Silver II" class="" src="https://static.solved.ac/tier_small/9.svg"/>| <a href='/BOJ/9000-10000/9465'>스티커</a> |
+| 9576 | <img alt="Gold I" class="" src="https://static.solved.ac/tier_small/15.svg"/> |<a href='/BOJ/9000-10000/9576/'>책 나눠주기</a> |
 | 9613 |<img alt="Silver III" class="" src="https://static.solved.ac/tier_small/8.svg"/>| <a href='/BOJ/9000-10000/9613'>GCD 합</a> |
 | 10430 |<img alt="Bronze V" class="" src="https://static.solved.ac/tier_small/1.svg"/>| <a href='/BOJ/10000-11000/10430'>나머지</a> |
 | 10775 | <img alt="Gold I" class="" src="https://static.solved.ac/tier_small/15.svg"/> |<a href='/BOJ/10000-11000/10775/'>공항</a> |
