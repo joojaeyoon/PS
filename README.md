@@ -67,6 +67,7 @@
 | 1927 |<img alt="Silver I" class="" src="https://static.solved.ac/tier_small/10.svg"/>|<a href=https://www.acmicpc.net/problem/1927 >최소 힙</a>|
 | 1963 |<img alt="Gold V" class="" src="https://static.solved.ac/tier_small/11.svg"/>|<a href=https://www.acmicpc.net/problem/1963 >소수 경로</a>|
 | 1976 |<img alt="Gold IV" class="" src="https://static.solved.ac/tier_small/12.svg"/>|<a href=https://www.acmicpc.net/problem/1976 >여행 가자</a>|
+| 1987 | <img alt="Gold IV" class="" src="https://static.solved.ac/tier_small/12.svg"/> |<a href='https://www.acmicpc.net/problem/1987'>알파벳</a> |
 | 2003 |<img alt="Silver III" class="" src="https://static.solved.ac/tier_small/8.svg"/>|<a href=https://www.acmicpc.net/problem/2003 >수들의 합 2</a>|
 | 2042 |<img alt="Gold I" class="" src="https://static.solved.ac/tier_small/15.svg"/>|<a href=https://www.acmicpc.net/problem/2042 >구간 합 구하기</a>|
 | 2056 |<img alt="Gold IV" class="" src="https://static.solved.ac/tier_small/12.svg"/>|<a href=https://www.acmicpc.net/problem/2056 >작업</a>|
