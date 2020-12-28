@@ -25,6 +25,7 @@
 | 1323 |<img alt="Gold V" class="" src="https://static.solved.ac/tier_small/11.svg"/>|<a href=https://www.acmicpc.net/problem/1323 >숫자 연결하기</a>|
 | 1327 |<img alt="Silver II" class="" src="https://static.solved.ac/tier_small/9.svg"/>|<a href=https://www.acmicpc.net/problem/1327 >소트 게임</a>|
 | 1339 |<img alt="Gold IV" class="" src="https://static.solved.ac/tier_small/12.svg"/>|<a href=https://www.acmicpc.net/problem/1339 >단어 수학</a>|
+| 1342 | <img alt="Gold V" class="" src="https://static.solved.ac/tier_small/11.svg"/> |<a href='https://www.acmicpc.net/problem/1342'>행운의 문자열</a> |
 | 1360 |<img alt="Gold V" class="" src="https://static.solved.ac/tier_small/11.svg"/>|<a href=https://www.acmicpc.net/problem/1360 >되돌리기</a>|
 | 1365 |<img alt="Gold III" class="" src="https://static.solved.ac/tier_small/13.svg"/>|<a href=https://www.acmicpc.net/problem/1365 >꼬인 전깃줄</a>|
 | 1377 |<img alt="Gold III" class="" src="https://static.solved.ac/tier_small/13.svg"/>|<a href=https://www.acmicpc.net/problem/1377 >버블 소트</a>|
